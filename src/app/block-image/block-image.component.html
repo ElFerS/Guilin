@@ -1,0 +1,24 @@
+    <div class="subtitle">
+        <h2>DESTINOS
+            
+         </h2>
+         <div class="rectangles">
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="c"></div>
+         </div>
+         
+    </div>
+        
+            
+   
+    <div class="grid">
+        <div class="ContentPack" *ngFor="let data of dataplaces">
+            <img src="{{data.image}}" alt="">
+            <div class="pNContent"><p class="packageName">{{data.name}}</p></div>
+            
+            <p class="packagePrice">{{data.price}}</p>
+        </div>
+          
+    </div>
+

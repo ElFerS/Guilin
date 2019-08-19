@@ -1,0 +1,92 @@
+img{
+    width: 22.500em;
+    height: 19.750em;
+    opacity: 0.8;
+}
+.subtitle{
+    margin-left: 7.5%;
+    width: 154px;
+    height: 192px;
+}
+h2{
+    padding-top: 65px;
+    margin-bottom: 0%;
+    font-size: 30px;
+    text-align: left;
+    color: #444446;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+/* Inicio de css para hacer las 3 lineas */
+.rectangles{
+    display: flex;
+    width: 150px;
+}
+.a,.b,.c{
+   
+    border-radius: 100px;
+    opacity: 0.8;
+    height: 4px;
+}
+.a{
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 49.1px;
+    justify-content: flex-start;
+    
+    background-color: #257B81;
+    margin-left: 0%;
+    
+}
+.b{
+    
+    width: 19.6px;
+    background-color: #79C28A;
+    margin-left: 2%;
+    justify-content: center;
+}
+.c{
+    width: 7.4px;
+    margin-left: 2%;
+    background-color: #257B81;
+
+
+}
+/* Fin de las 3 lineas de color, inicio del grid de las imagenes */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 22.5em);
+    grid-auto-rows: repeat(3,19.750em);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    
+}
+/* Inicio del css para el centrado del contenido */
+
+.ContentPack{
+    position: relative;
+}
+.pNContent{
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    
+    width: 298px;
+    height: 49px;
+    background-color: #6DC7C1;
+}
+.packageName{
+    position: relative;
+    bottom:10px;
+    font-weight: bold;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: 0.16px;
+    text-align: center;
+}
