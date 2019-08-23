@@ -78,12 +78,43 @@ h2{
     height: 49px;
     background-color: #6DC7C1;
 }
+.pPContent{
+    position: absolute;
+    top: 145px;
+    left: 80px;
+    
+    width: 223px;
+    height: 52px;
+    background-color: rgba(74,74,74,0.73);;
+}
+.packagePrice{
+    position: relative;
+    bottom:4px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-style: italic;
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 0.13px;
+
+}
+i{
+    padding-top: 8px;
+    padding-right: 15px;
+}
+.iconsPrincipal{
+    display: inline;
+    color: #FFFFFF;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+
 .packageName{
     position: relative;
     bottom:10px;
     font-weight: bold;
-    
-    
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     font-size: 24px;
