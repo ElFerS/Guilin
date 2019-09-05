@@ -1,10 +1,15 @@
+.ubication{
+    position: absolute;
+    left: 135px;
+}
+
 img{
     width: 22.500em;
     height: 19.750em;
     opacity: 0.8;
 }
 .subtitle{
-    margin-left: 7.5%;
+  
     width: 154px;
     height: 192px;
 }
